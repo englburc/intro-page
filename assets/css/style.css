@@ -71,11 +71,38 @@ body {
   /* Grid layout for the work section */
   #work {
     display: grid;
+    grid-template-areas: 
+    "menu-work surf-report surf-report"
+    "menu-work surf-report surf-report"
+    "menu-work surf-report surf-report"
+    "menu-work led-wall calculator"
+    "menu-work pastel-puzzels run-buddy";
+    /*
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
+    */
+
     grid-gap: 20px;
   }
+
+  .menu-work {
+    grid-area: menu-work;
+  }
   
+  .surf-report {
+    grid-area: surf-report;
+  }
+  .led-wall {
+    grid-area: led-wall;
+  }
+  .calculator {
+    grid-area: calculator;
+  }
+  .pastel-puzzels {
+    grid-area: pastel-puzzels;
+  }
+  .run-buddy {
+    grid-area: run-buddy;
+  }
   #work-title {
     grid-column: span 4;
   }
