@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+   .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+   
+   
+  
+  .links-in-page {
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    margin: 10px;
+  }
+  
+  .links-in-page > a {
+    margin: 10px;
+  }
