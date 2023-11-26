@@ -1,53 +1,84 @@
 <!DOCTYPE html>
-<html lang="en-gb">
-
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Levan Burchuladze // Web Developer</title>
-  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="../intro-page/assets/css/style.css">
 </head>
-
 <body>
-  <!-- main logo / nav -->
-  <header class="header">
-    <h1 class="left">Levan Burchuladze</h1>
-    <nav class="links-in-page">
-      <a href="#">About me</a>
-      <a href="#">Work</a>
-      <a href="#">Contact me</a>
-      <a href="#">Resume</a>
+
+  <header class="header-container">
+    <h1>Levan Burchuladze</h1>
+    <img src="../intro-page/assets/images/hainbal.me.png" alt="id style photo" width="70" height="100">
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#work">My Work</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
     </nav>
   </header>
 
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>I am the master of my fate,<br>
-        I am the captain of my soul!</h2>
-    </div>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a creative problem solver and tech enthusiast. With a strong foundation in web development, I bring innovative solutions to life. Whether it's front-end magic or back-end wizardry, I've got you covered.</p>
   </section>
 
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
-      <p>
-        Passionate web developer with a flair for crafting innovative and efficient digital solutions. Proficient in front-end and back-end technologies, I blend creativity with technical expertise to deliver seamless user experiences. Dedicated to staying ahead in the dynamic world of web development, I thrive on turning ideas into functional, visually stunning websites. 
-      </p>
-    </section>
+  <section id="work">
+    <h2 id="work-title">My Work</h2>
 
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
-    </section>
+    <div id="work-left">
+      <p>This is the "Work" section on the left side.</p>
+    </div>
 
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-    </section>
-  </main>
+    <div class="project-wide">
+      <h3>[Project Name 1]</h3>
+      <a href="link_to_project1_deployed_app" target="_blank">
+        <img src="link_to_project1_image.jpg" alt="[Project Name 1]">
+      </a>
+      <p>[Brief description of Project 1]</p>
+    </div>
+
+    <div class="project">
+      <h3>[Project Name 2]</h3>
+      <a href="link_to_project2_deployed_app" target="_blank">
+        <img src="link_to_project2_image.jpg" alt="[Project Name 2]">
+      </a>
+      <p>[Brief description of Project 2]</p>
+    </div>
+
+    <div class="project">
+      <h3>[Project Name 3]</h3>
+      <a href="link_to_project3_deployed_app" target="_blank">
+        <img src="link_to_project3_image.jpg" alt="[Project Name 3]">
+      </a>
+      <p>[Brief description of Project 3]</p>
+    </div>
+
+    <div class="project">
+      <h3>[Project Name 4]</h3>
+      <a href="link_to_project4_deployed_app" target="_blank">
+        <img src="link_to_project4_image.jpg" alt="[Project Name 4]">
+      </a>
+      <p>[Brief description of Project 4]</p>
+    </div>
+
+    <div class="project">
+      <h3>[Project Name 5]</h3>
+      <a href="link_to_project5_deployed_app" target="_blank">
+        <img src="link_to_project5_image.jpg" alt="[Project Name 5]">
+      </a>
+      <p>[Brief description of Project 5]</p>
+    </div>
+
+  </section>
+  
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Ready to start a conversation? Reach out to me via <a href="mailto:your.email@example.com">email</a> or connect on <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a>.</p>
+  </section>
+
 </body>
-
 </html>

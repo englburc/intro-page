@@ -1,0 +1,85 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0b867e;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  border-radius: 5%;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  padding: 20px;
+}
+
+.project {
+  margin-bottom: 40px;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Add media queries for responsiveness */
+@media screen and (max-width: 600px) {
+  header {
+    font-size: 18px;
+  }
+
+  nav {
+    margin-top: 10px;
+    text-align: right;
+  }
+
+  nav li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Grid layout for the work section */
+#work {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+#work-title {
+  grid-column: span 4;
+}
+
+#work-left {
+  grid-row: span 5;
+}
