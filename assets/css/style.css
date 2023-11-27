@@ -93,7 +93,7 @@ body {
   .menu-work {
     grid-area: menu-work;
     /* aligning text at top didnot work*/
-    vertical-align:top;
+    justify-items: start;
 
   }
 
