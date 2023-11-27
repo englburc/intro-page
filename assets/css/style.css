@@ -2,6 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: cadetblue;
   }
   
   header {
@@ -87,12 +88,16 @@ body {
   }
   .menu-work {
     grid-area: menu-work;
+    /* aligning text at top didnot work*/
+    vertical-align:top;
 
   }
 
   #menu-work {
     text-align: left;
     align-self: baseline;
+    background-color: cadetblue;
+    
   }
   
   .surf-report {
@@ -128,9 +133,7 @@ body {
     grid-column: span 4;
   }
   
-  #work-left {
-    grid-row: span 5;
-  }
+
 
   #contact {
     display: flex;
