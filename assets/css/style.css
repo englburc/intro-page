@@ -1,3 +1,7 @@
+:root {
+    --project-background-size: 700px 200px;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -103,31 +107,31 @@ body {
   .surf-report {
     grid-area: surf-report;
     background-image:url("../images/02-portfolio-4.jpg");
-    background-size: 900px 200px;
+    background-size: 1400px 200px;
     background-repeat: no-repeat;
   }
   .led-wall {
     grid-area: led-wall;
     background-image: url(../images/02-portfolio-1.jpg);
-    background-size: 500px 200px;
+    background-size: var(--project-background-size);
     background-repeat: no-repeat;
   }
   .calculator {
     grid-area: calculator;
     background-image: url("../images/02-portfolio-2.jpg");
-    background-size: 500px 200px;
+    background-size: var(--project-background-size);
     background-repeat: no-repeat;
   }
   .pastel-puzzels {
     grid-area: pastel-puzzels;
     background-image: url("../images/02-portfolio-3.jpg");
     background-repeat: no-repeat;
-    background-size: 500px 200px;
+    background-size: var(--project-background-size);
   }
   .run-buddy {
     grid-area: run-buddy;
     background-image: url("../images/02-run-buddy.jpg");
-    background-size: 500px 200px;
+    background-size: var(--project-background-size);
   }
   #work-title {
     grid-column: span 4;
